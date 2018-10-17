@@ -25,7 +25,7 @@ function addBox() {
   boxes.appendChild('newBox')
   var boxes = document.getElementById('boxes';)
   var newBoxElement = document.createElement('div');
-  newBox.setAttribute('class' color + ' box');
+  newBoxElement.setAttribute('class' color + ' box');
 
   // replace with your code
   // This line is needed to make sure that new boxes
