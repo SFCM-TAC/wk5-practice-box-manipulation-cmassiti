@@ -1,13 +1,13 @@
 
 /* background color classes */
 .red {
-  background-color: red;
+  background-color: red !important;
 }
 .blue {
-  background-color: blue;
+  background-color: blue !important;
 }
 .yellow {
-  background-color: yellow;
+  background-color: yellow !important:
 }
 
 /* box classes */
