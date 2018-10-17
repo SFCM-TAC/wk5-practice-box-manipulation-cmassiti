@@ -15,7 +15,7 @@ function addBox() {
   // TODO: Add a new div with class="box" to
   // the boxes section of the dom tree
 
-  var newBoxElement = color; // replace with your code
+  var newBoxElement = null; // replace with your code
   // This line is needed to make sure that new boxes
   // handle clicks. Make sure thatnewBoxElement refers
   // to the DOM node containing your new Div.
