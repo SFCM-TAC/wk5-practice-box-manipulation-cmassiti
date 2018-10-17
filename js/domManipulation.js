@@ -22,7 +22,7 @@ function addBox() {
   // TODO: Add a new div with class="box" to
   // the boxes section of the dom tree
 
-  boxes.appendChild('newBox')
+  boxes.appendChild('newBoxElement')
   var boxes = document.getElementById('boxes';)
   var newBoxElement = document.createElement('div');
   newBoxElement.setAttribute('class' color + ' box');
