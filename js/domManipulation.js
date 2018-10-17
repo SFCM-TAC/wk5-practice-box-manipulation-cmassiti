@@ -8,17 +8,14 @@ function changeBoxColors(color) {
   // (consider using a switch statement!)
 }
 
-var boxColors = document.querySelectorAll('li.blue');
-for (var i = 0; i < boxColors.length; i++) {
-  boxColors[i].className = 'blue'
-}
+
 
 function addBox() {
   console.log('Adding a new box');
   // TODO: Add a new div with class="box" to
   // the boxes section of the dom tree
 
-  var newBoxElement = null; // replace with your code
+  var newBoxElement = color; // replace with your code
   // This line is needed to make sure that new boxes
   // handle clicks. Make sure thatnewBoxElement refers
   // to the DOM node containing your new Div.
