@@ -8,7 +8,8 @@ function changeBoxColors(color) {
   // (consider using a switch statement!)
 }
 
-var el = document.getElementsByClassName('className')
+var el = querySelector('li.red)');
+el.className = changeBoxColors
 
 function addBox() {
   console.log('Adding a new box');
