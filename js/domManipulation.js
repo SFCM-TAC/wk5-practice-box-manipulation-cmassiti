@@ -8,7 +8,14 @@ function changeBoxColors(color) {
   // (consider using a switch statement!)
 }
 
+var elements = document.getElementsByClassName('box');
 
+if (elements.length > 0){
+
+  for (var i = 0; i < elements.length; i++){
+    elements[i].className = color + ' box';
+  }
+}
 
 function addBox() {
   console.log('Adding a new box');
