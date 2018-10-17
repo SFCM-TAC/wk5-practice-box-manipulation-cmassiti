@@ -8,6 +8,8 @@ function changeBoxColors(color) {
   // (consider using a switch statement!)
 }
 
+var el = document.getElementsByClassName('className')
+
 function addBox() {
   console.log('Adding a new box');
   // TODO: Add a new div with class="box" to
