@@ -8,10 +8,18 @@ function changeBoxColors(color) {
   // (consider using a switch statement!)
 }
 
-var Boxes = [{color: 'red'},{color: 'yellow'},{color: 'red'},{color: 'yellow'}...];
-var redBoxes = [];
-var yellowBoxes = [];
-var blueBoxes = [];
+color = "green"
+switch (color) {
+    case "blue":
+         console.log("blue");
+    case "green":
+          console.log("green");
+    case "red":
+         console.log("red");
+    default:
+         console.log("default");
+}
+
 
 function addBox() {
   console.log('Adding a new box');
