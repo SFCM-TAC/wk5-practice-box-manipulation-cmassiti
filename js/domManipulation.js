@@ -8,8 +8,10 @@ function changeBoxColors(color) {
   // (consider using a switch statement!)
 }
 
-var el = querySelector('li.red)');
-el.className = changeBoxColors
+var Boxes = [{color: 'red'},{color: 'yellow'},{color: 'red'},{color: 'yellow'}...];
+var redBoxes = [];
+var yellowBoxes = [];
+var blueBoxes = [];
 
 function addBox() {
   console.log('Adding a new box');
