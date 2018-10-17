@@ -50,6 +50,8 @@ containerSelectedBoxes.removeChild(removeSelectedBoxes);
 /* Event Handlers */
 function handleBoxClick(event) {
   var boxElement = event.target;
+  boxElement.setAttribute('class', 'box gray box-selected');
+
   console.log('Selecting box: ', boxElement);
   // TODO: add or remove the box from the array of selectedBoxes
   // TODO: looke at styles.css and choose a class (or multiple classes)
