@@ -41,9 +41,9 @@ function removeSelectedBoxes() {
   // from their parent in the DOM tree (their parent is the div with id="boxes").
   // Think about what happens to the selectedBoxes array when you're done!
 
-var removeSelectedBoxes = document.getElementsByClassName('box-selected gray')[];
+var removeSelectedBoxes = document.getElementsByClassName('box-selected gray')[0];
 var containerSelectedBoxes = removeSelectedBoxes.parentNode;
-containerSelectedBoxes.removedChild(removeSelectedBoxes);
+containerSelectedBoxes.removeChild(removeSelectedBoxes);
 
 }
 
