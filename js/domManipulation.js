@@ -6,7 +6,6 @@ function changeBoxColors(color) {
   // to change their background color
   // possible values of color are: 'red', 'blue', 'yellow'
   // (consider using a switch statement!)
-}
 
 var elements = document.getElementsByClassName('box');
 
@@ -14,6 +13,7 @@ if (elements.length > 0){
 
   for (var i = 0; i < elements.length; i++){
     elements[i].className = color + ' box';
+    }
   }
 }
 
