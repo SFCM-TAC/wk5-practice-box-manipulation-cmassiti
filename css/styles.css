@@ -1,13 +1,16 @@
 
 /* background color classes */
+.gray {
+  background-color: gray;
+}
 .red {
-  background-color: red !important;
+  background-color: red;
 }
 .blue {
-  background-color: blue !important;
+  background-color: blue;
 }
 .yellow {
-  background-color: yellow !important;
+  background-color: yellow;
 }
 
 /* box classes */
@@ -15,7 +18,6 @@
   height: 150px;
   width: 200px;
   margin: 10px;
-  background-color: gray;
 }
 
 .box-selected {
