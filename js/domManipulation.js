@@ -8,18 +8,10 @@ function changeBoxColors(color) {
   // (consider using a switch statement!)
 }
 
-color = "green"
-switch (color) {
-    case "blue":
-         console.log("blue");
-    case "green":
-          console.log("green");
-    case "red":
-         console.log("red");
-    default:
-         console.log("default");
+var boxColors = document.querySelectorAll('li.blue');
+for (var i = 0; i < boxColors.length; i++) {
+  boxColors[i].className = 'blue'
 }
-
 
 function addBox() {
   console.log('Adding a new box');
